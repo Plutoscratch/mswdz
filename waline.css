@@ -1,0 +1,47 @@
+:root {
+  /* 字体大小 */
+  --waline-font-size: 24px;
+
+  /* 常规颜色 */
+  --waline-white: #fff;
+  --waline-light-grey: #999;
+  --waline-dark-grey: #666;
+
+  /* 主题色 */
+  --waline-theme-color: #3366ff;
+  --waline-active-color: #0099ff;
+
+  /* 布局颜色 */
+  --waline-text-color: #fff;
+  --waline-bgcolor: #3366ff;
+  --waline-bgcolor-light: #0066cc;
+  --waline-bgcolor-hover: #66ccff;
+  --waline-border-color: #0066cc;
+  --waline-disable-bgcolor: #fff;
+  --waline-disable-color: #fff;
+  --waline-code-bgcolor: #fff;
+
+  /* 特殊颜色 */
+  --waline-bq-color: #33099ff;
+
+  /* 头像 */
+  --waline-avatar-size: 3.25rem;
+  --waline-mobile-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+  /* 徽章 */
+  --waline-badge-color: #3498db;
+  --waline-badge-font-size: 0.775em;
+
+  /* 信息 */
+  --waline-info-bgcolor: #f8f8f8;
+  --waline-info-color: #999;
+  --waline-info-font-size: 0.625em;
+
+  /* 渲染选择 */
+  --waline-border: 1px solid var(--waline-border-color);
+  --waline-avatar-radius: 50%;
+  --waline-box-shadow: 0 12px 40px #3366ff;
+
+
+
+}
