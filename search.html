@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+		<body bgcolor="#0099ff">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>库存搜索|深圳市铭胜威科技有限公司</title>
+	<link rel="stylesheet" href="iconfont_pc.css">
+	<link rel="stylesheet" href="article_template.css">
+	<link rel="stylesheet" href="text_style.css">
+	<link rel="stylesheet" href="bttn.css">
+	<link rel="stylesheet" href="waline.css">
+</head>
+<style>
+.table{
+	width:100px;
+	height:100px;
+	margin: 0 auto;
+}	
+.button
+{
+	display:block;
+	text-align: center;
+	left:50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 10px;
+	width:25%;
+	height:50px;
+	background: #3366ff;
+	transition:all 0.5s ease;
+	color: black;
+	-webkit-transition:all 0.5s ease;
+	border: none;
+	color:white;
+	
+}
+
+.button:hover
+{
+	width:80%;
+	box-shadow: 0 5px 5px 2px rgba(0,153,255,.2);
+	border-radius: 80px;
+}
+th{
+	font-size:20px;
+}
+</style>
+<body>
+    <div class="menu" style="z-index:999;">
+        <ul>
+  			<li><a href="/"><img src="https://s2.loli.net/2022/04/16/1He58zuakd2tCGZ.png" alt="logo" width="45" height="45"></a></li>
+			<li><a href="/"><i class="iconfont icon-home"></i>首页</a></li>
+  			<li><a href="/call"><i class="iconfont icon-search"></i>联系方式</a></li>
+  			<li><a href="/about"><i class="iconfont icon-about"></i>关于我们</a></li>
+  			<li><a href="/search"><i class="iconfont icon-ego-blog"></i>库存搜索</a></li>
+        </ul>
+		<ul style="float: right;">
+            <li><h3>深圳市铭胜威科技有限公司</h3></li>
+        </ul>
+    </div>
+    <div class="top">
+		<h1>博客</h1>
+    </div>
+	<div class="head">
+		<h1 align="center">库存搜索</h1>
+		<div style="margin-top: 15px;">
+		<h2 align="center">深圳市铭胜威科技有限公司</h2>
+		</div>
+    </div>
+	<div class="line"></div>
+	<div style="margin-top:20px">
+	<button class="button" onclick="fun()"><h2>搜索</h2></button>
+	<script>
+		function fun() {
+		var x;
+		var name=prompt("请输入精确型号","型号"); //显示默认文本 "Keafmd"
+		if (name!=null && name!=""){
+		x="/search#" + name;
+		window.location.href =x;
+		}
+	}
+	</script>	
+	<!--以下为库存列表部分-->
+	<br>
+	<table border="6" style="border: 2px #fff;border-radius:10px;height:100px;margin: 0 auto;text-align: center;color:white;">
+    <tr>
+        <th>型号</th>
+        <th>数量</th>
+		<th>品牌</th>
+		<th>封装</th>
+		<th>年份</th>
+		<th>包装</th>
+		<th>最后更改</th>
+    </tr>         <!--↓这里填“#”加上型号-->
+        <th><a href="#111" name="111">111</a></th><!--型号-->
+        <th>111</th><!--数量      ↑这里就填型号-->
+		<th>111</th><!--品牌-->
+		<th>111</th><!--封装-->
+		<th>111</th><!--年份-->
+		<th>111</th><!--包装-->
+		<th>111</th><!--最后更改日期-->
+    <tr>
+        <th>111</th><!--型号-->
+        <th>111</th><!--数量-->
+		<th>111</th><!--品牌-->
+		<th>111</th><!--封装-->
+		<th>111</th><!--年份-->
+		<th>111</th><!--包装-->
+		<th>111</th><!--最后更改日期-->
+    </tr>
+	
+	</table>
+<br>
+<body>
+    <div class="footer">
+        <span>Copyright &copy; 2008-2022 深圳市铭胜威科技有限公司  <a href="">mswdz.top</a> All Rights Reserved.</span>
+    </div>
+</body>
+</html>
